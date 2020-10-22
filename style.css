@@ -1,0 +1,136 @@
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+section {
+  background-size: cover;
+  animation: surge 1s step-end infinite;
+}
+
+section:nth-of-type(1) {
+  animation-duration: 9s;
+  animation-delay: -1s;
+}
+
+section:nth-of-type(2) {
+  animation-duration: 10s;
+  animation-delay: -2s;
+}
+
+section:nth-of-type(3) {
+  animation-duration: 11s;
+  animation-delay: -3s;
+}
+
+section:nth-of-type(4) {
+  animation-duration: 12s;
+  animation-delay: -4s;
+}
+section:nth-of-type(5) {
+  animation-duration: 13s;
+  animation-delay: -5s;
+}
+section:nth-of-type(6) {
+  animation-duration: 14s;
+  animation-delay: -6s;
+}
+section:nth-of-type(7) {
+  animation-duration: 15s;
+  animation-delay: -7s;
+}
+section:nth-of-type(8) {
+  animation-duration: 16s;
+  animation-delay: -8s;
+}
+section:nth-of-type(9) {
+  animation-duration: 17s;
+  animation-delay: -9s;
+}
+
+@keyframes surge {
+  0% {
+    background-image: url(./img/1.gif);
+  }
+  4% {
+    background-image: url(./img/2.gif);
+  }
+  8% {
+    background-image: url(./img/3.gif);
+  }
+  12% {
+    background-image: url(./img/4.gif);
+  }
+  16% {
+    background-image: url(./img/5.gif);
+  }
+  20% {
+    background-image: url(./img/6.gif);
+  }
+  24% {
+    background-image: url(./img/7.gif);
+  }
+  28% {
+    background-image: url(./img/8.gif);
+  }
+  32% {
+    background-image: url(./img/9.gif);
+  }
+  36% {
+    background-image: url(./img/10.gif);
+  }
+  40% {
+    background-image: url(./img/11.gif);
+  }
+  44% {
+    background-image: url(./img/12.gif);
+  }
+  48% {
+    background-image: url(./img/13.gif);
+  }
+  52% {
+    background-image: url(./img/14.gif);
+  }
+  56% {
+    background-image: url(./img/15.gif);
+  }
+  60% {
+    background-image: url(./img/16.gif);
+  }
+  64% {
+    background-image: url(./img/17.gif);
+  }
+  68% {
+    background-image: url(./img/18.gif);
+  }
+  72% {
+    background-image: url(./img/19.gif);
+  }
+  76% {
+    background-image: url(./img/20.gif);
+  }
+  80% {
+    background-image: url(./img/21.gif);
+  }
+  84% {
+    background-image: url(./img/22.gif);
+  }
+  88% {
+    background-image: url(./img/23.gif);
+  }
+  92% {
+    background-image: url(./img/24.gif);
+  }
+  96% {
+    background-image: url(./img/25.gif);
+  }
+}
